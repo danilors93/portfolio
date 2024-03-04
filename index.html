@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Danilo Rodrigues</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+    <!-- Language Switch Style -->
+    <style>
+        .language-switch {
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- MENU -->
+<nav class="navbar navbar-expand-sm navbar-light">
+  <div class="container">
+      <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Danilo Rodrigues</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+              <!-- Menu items -->
+          </ul>
+
+          <ul class="navbar-nav ml-lg-auto">
+              <div class="ml-lg-4">
+                  <!-- Color mode -->
+                  <div class="color-mode d-lg-flex justify-content-center align-items-center" style="margin-right: 10px;">
+                      <i class="color-mode-icon"></i>
+                      Color mode
+                  </div>
+              </div>
+
+              <!-- Language Switch -->
+              <li class="nav-item">
+                  <span id="language-en" onclick="changeLanguage('en')" class="nav-link">EN</span>
+              </li>
+              <li class="nav-item">
+                  <span id="language-pt" onclick="changeLanguage('pt')" class="nav-link">PT</span>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+<!-- ABOUT -->
+<section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                <div class="about-text">
+                    <h1 class="animated animated-text">
+                      <span class="mr-2 text-en">Hey! I'm <b>Danilo</b><br></span>
+                      <span class="mr-2 text-pt">Olá! Eu sou <b>Danilo</b><br></span>
+                      <span class="animated-item text-en">a .Net Developer</span>
+                      <span class="animated-item text-pt">um Desenvolvedor .Net</span>
+                  </h1>
+                    <p class="text-en">
+                      As a passionate .NET developer specializing in C#, I thrive on the challenge of crafting exceptional software solutions, aiming to evolve in both front-end and back-end development.
+                    </p>
+                    <p class="text-pt">
+                        Como um desenvolvedor .NET apaixonado especializado em desenvolvimento C#, prospero no desafio de
+                        criar soluções de software excepcionais, buscando evoluir tanto no desenvolvimento front end quanto back end.
+                    </p>
+
+                    <div class="custom-btn-group mt-4">
+                        <a href="images/project/CV_En.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12 col-12">
+                <div class="about-image svg">
+                    <img src="images/undraw/foto.png" class="img-fluid" alt="svg image">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <style>
+      .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.social-links li a {
+    font-size: 24px;
+}
+      .detail-button {
+          display: inline-block;
+          background-color: #cdd0d6;
+          color: #000000;
+          padding: 10px 20px;
+          border-radius: 30px;
+          text-decoration: none;
+          transition: background-color 0.3s ease;
+      }
+  
+      .detail-button:hover {
+          background-color: #0056b3;
+      }
+  </style>
+  
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-11 text-center mx-auto col-12 mb-4"> 
+                  <div class="col-lg-8 mx-auto">
+                      <h2>
+                          <span class="text-en">Recent Projects</span>
+                          <span class="text-pt">Projetos Recentes</span>
+                      </h2>
+                  </div>
+              </div>
+  
+              <div class="col-lg-11 text-center mx-auto col-12"> 
+                  <div class="owl-carousel owl-theme">
+                      <div class="item">
+                          <div class="project-info">
+                              <h3>Dreamy Tasty</h3>
+                              <p>
+                                  <span class="text-en">Online restaurant with user registration for orders, payment setup, order history, etc. Also includes admin access with cost control, expense management, menu item addition, customer support, etc.</span>
+                                  <span class="text-pt">Restaurante online com registro de usuário para pedidos, configuração de pagamento, histórico de pedidos, etc. Também inclui acesso de administrador com controle de custos, gerenciamento de despesas, adição de itens de menu, suporte ao cliente, etc.</span>
+                              </p>
+                              <img src="images/project/DreamyTasty.png" class="img-fluid" alt="project image" style="max-width: 100%; max-height: 600px; margin: 0 auto;">
+                              <a href="https://www.youtube.com/watch?v=4xGvYtUy0i8" target="_blank" class="detail-button">
+                                  <span class="text-en">Details</span>
+                                  <span class="text-pt">Detalhes</span>
+                              </a>
+                          </div>
+                      </div>
+                      
+                      <div class="item">
+                          <div class="project-info">
+                              <h3>Finance Master</h3>
+                              <p>
+                                  <span class="text-en">Banking app with core banking functionalities: Deposit, transfer, withdrawal, balance inquiry. Admin login with permissions for employee management.</span>
+                                  <span class="text-pt">Aplicativo de banco com as principais funcionalidades bancárias: Depósito, transferência, saque, consulta de saldo. Login do administrador com permissões para gerenciamento de funcionários.</span>
+                              </p>
+                              <img src="images/project/FinanceMaster.png" class="img-fluid" alt="project image" style="max-width: 50%; max-height: 600px; margin: 0 auto;">
+                              <a href="https://www.youtube.com/watch?v=Mq51tdjuN2c" target="_blank" class="detail-button">
+                                  <span class="text-en">Details</span>
+                                  <span class="text-pt">Detalhes</span>
+                              </a>
+                          </div>
+                      </div>
+      
+                      <div class="item">
+                          <div class="project-info">
+                              <h3>Chatbot</h3>
+                              <p>
+                                  <span class="text-en">ASP.NET Chatbot connected to OpenAI API.</span>
+                                  <span class="text-pt">Chatbot ASP.NET conectado à API OpenAI.</span>
+                              </p>
+                              <img src="images/project/ChatBot.png" class="img-fluid" alt="project image" style="max-width: 50%; max-height: 600px; margin: 0 auto;">
+                          </div>
+                      </div>
+      
+                      <div class="item">
+                          <div class="project-info">
+                              <img src="images/project/ComingSoon.jpg" class="img-fluid" alt="project image" style="max-width: 50%; max-height: 600px; margin: 0 auto;">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+  
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+      <div class="container">
+          <div class="row">
+  
+              <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 text-en">Experiences</h2>
+                  <h2 class="mb-4 text-pt">Experiências</h2>
+  
+                  <div class="timeline">
+                      <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2023</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span class="text-en">Software Developer</span><span class="text-pt">Desenvolvedor de Software</span><small>Free Projects</small></h3>
+                              <p class="text-en">Studying and developing projects that specialize in .NET technologies, utilizing C#, SQL Server, ASP.NET, Blazor, and even a bit of Bootstrap! The focus is on continual improvement and becoming a more skilled professional, capable of solving increasingly complex problems and delivering better solutions!</p>
+                              <p class="text-pt">Estudando e desenvolvendo projetos especializados em tecnologias .NET, utilizando C#, SQL Server, ASP.NET, Blazor e até mesmo um pouco de Bootstrap! O foco está na melhoria contínua e em se tornar um profissional mais qualificado, capaz de resolver problemas cada vez mais complexos e oferecer melhores soluções!</p>
+                          </div>
+                      </div>
+  
+                      <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2022</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span class="text-en">Systems analyst</span><span class="text-pt">Analista de Sistemas</span><small>TechTrends</small></h3>
+                              <p class="text-en">Working closely with clients, assisting in product and solution implementation, as well as in training and usability of tools! Involved from development through final testing stages.</p>
+                              <p class="text-pt">Trabalhando lado a lado com os clientes, auxiliando na implementação de produtos e soluções, assim como no treinamento e na usabilidade das ferramentas! Envolvido desde o desenvolvimento até as etapas finais de teste.</p>
+                          </div>
+                      </div>
+  
+                      <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2021</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span class="text-en">Software Developer</span><span class="text-pt">Desenvolvedor de Software</span><small>Freelancer</small></h3>
+                              <p class="text-en">Since then, I've been working as a freelancer, seizing every opportunity that comes my way. This includes assisting family and friends with their business projects as well as actively seeking opportunities on platforms like Upwork.</p>
+                              <p class="text-pt">Desde então, tenho trabalhado como freelancer, aproveitando todas as oportunidades que surgem no meu caminho. Isso inclui ajudar familiares e amigos com seus projetos comerciais, além de buscar ativamente oportunidades em plataformas como o Upwork.</p>
+                          </div>
+                      </div>
+  
+                  </div>
+              </div>
+  
+              <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2 text-en">Education</h2>
+                  <h2 class="mb-4 mobile-mt-2 text-pt">Educação</h2>
+  
+                  <div class="timeline">
+                      <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2023</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span class="text-en">C# Development</span><span class="text-pt">Desenvolvimento em C#</span><small>Udemy</small></h3>
+                              <p class="text-en">Full-stack C# development course covering everything from basic programming logic and algorithms to more advanced topics such as front and back end development, game creation, data science, etc.</p>
+                              <p class="text-pt">Curso completo de desenvolvimento em C#, abrangendo desde lógica e algoritmos de programação básica até tópicos mais avançados, como desenvolvimento front-end e back-end, criação de jogos, ciência de dados, etc.</p>
+                          </div>
+                      </div>
+  
+                      <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2022</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span class="text-en">Automation with C#</span><span class="text-pt">Automação com C#</span><small>Udemy</small></h3>
+                              <p class="text-en">Complete C# Automation Course</p>
+                              <p class="text-pt">Curso completo de Automação com C#</p>
+                          </div>
+                      </div>
+  
+                      <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2021</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span class="text-en">Analysis and Systems Development</span><span class="text-pt">Análise e Desenvolvimento de Sistemas</span><small>Anhanguera</small></h3>
+                              <p class="text-en">Bachelor's Degree in Analysis and Systems Development.</p>
+                              <p class="text-pt">Bacharelado em Análise e Desenvolvimento de Sistemas.</p>
+                          </div>
+                      </div>
+  
+                  </div>
+              </div>
+  
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+          <div class="row">
+  
+              <div class="col-lg-5 mr-lg-5 col-12">
+                  <div class="google-map w-100">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109724.2696106721!2d-46.59607585399435!3d-23.701480577335255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5910a75e5275%3A0xd6ad075ed34d7781!2sS%C3%A3o%20Bernardo%20do%20Campo%2C%20SP!5e0!3m2!1sen!2sbr!4v1647119344663" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+              </div>
+  
+              <div class="col-lg-6 col-12">
+                  <div class="contact-form">
+                      <h2 class="mb-4 text-en">Interested to work with me? Let's talk!</h2>
+                      <h2 class="mb-4 text-pt">Interessado em trabalhar comigo? Vamos conversar!</h2>
+  
+                      <form action="" method="get">
+                          <div class="row">
+                              <div class="col-lg-6 col-12">
+                                  <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                              </div>
+  
+                              <div class="col-lg-6 col-12">
+                                  <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                              </div>
+  
+                              <div class="col-12">
+                                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                              </div>
+  
+                              <div class="ml-lg-auto col-lg-5 col-12">
+                                  <input type="submit" class="form-control submit-btn" value="Send Button">
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <ul class="social-links">
+      <li><a href="https://www.linkedin.com/in/danilo-rodrigues-a26482a7" class="fab fa-linkedin" target="_blank" title="LinkedIn"></a></li>
+      <li><a href="https://github.com/ikrypty" class="fab fa-github" target="_blank" title="GitHub"></a></li>
+  </ul>
+  
+  <!-- FOOTER -->
+  <!-- FOOTER -->
+<footer class="footer py-5">
+  <div class="container text-center">
+      <div class="row">
+          <div class="col-lg-12 col-12">
+              <p class="copyright-text">Copyright &copy; 2024 Danilo Rodrigues. All rights reserved</p>
+              <p class="copyright-text">Designed by <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/danilo-rodrigues-a26482a7?">Danilo</a></p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+  
+     <script>
+      window.onload = function() {
+            changeLanguage('en');
+        };
+      function changeLanguage(lang) {
+          var elementsEn = document.querySelectorAll('.text-en');
+          var elementsPt = document.querySelectorAll('.text-pt');
+          var elementsLanguageEn = document.querySelectorAll('#language-en');
+          var elementsLanguagePt = document.querySelectorAll('#language-pt');
+  
+          if (lang === 'en') {
+              elementsEn.forEach(function (element) {
+                  element.style.display = 'inline';
+              });
+              elementsPt.forEach(function (element) {
+                  element.style.display = 'none';
+              });
+              elementsLanguageEn.forEach(function (element) {
+                  element.style.fontWeight = 'bold';
+              });
+              elementsLanguagePt.forEach(function (element) {
+                  element.style.fontWeight = 'normal';
+              });
+          } else if (lang === 'pt') {
+              elementsEn.forEach(function (element) {
+                  element.style.display = 'none';
+              });
+              elementsPt.forEach(function (element) {
+                  element.style.display = 'inline';
+              });
+              elementsLanguageEn.forEach(function (element) {
+                  element.style.fontWeight = 'normal';
+              });
+              elementsLanguagePt.forEach(function (element) {
+                  element.style.fontWeight = 'bold';
+              });
+          }
+      }
+  </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
